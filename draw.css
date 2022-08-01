@@ -1,0 +1,41 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+body{background: url(images/bg.gif);}
+.line{width: 100%; height: 35px; background: darkgoldenrod;}
+.hepsi{width: 820px; height: auto; margin: 20px auto;}
+.logo{width: 180px; height: 200px; background: url(images/bilgiticaret.png) no-repeat; float: left; }
+.menu{width: 820px; height: 40px; background: url(images/menu_bg.gif);}
+.orta{width: 820px; height: 700px; background: #e9e5e2; padding: 20px 0 0 0;}
+.alt{width: 820px; height: 60px;}
+.menu ul li{float: left;}
+.menu ul li a{display: block; width: 100px; height: 24px;font: bold 12px tahoma; text-decoration: none; text-align: center; padding: 11px 0 0 0;color: #ccc;}
+.menu ul li#home a{background: url(images/menu_bullet.gif)bottom center no-repeat;}
+.menu ul li a:hover{background: url(images/menu_bullet.gif)bottom center no-repeat;}
+.orta1{width: 441px; height: 173px; background: url(images/welcome_box.gif) no-repeat;float: left; font: 12px tahoma; text-align:justify ; line-height: 25px; padding: 25px 40px 0 25px;}
+.yazi1{font: bold 13px tahoma; color: rgb(2, 36, 189);}
+.geridon{width: 85px; height: 85px; background: url(images/creategg.gif) right no-repeat; float: left;}
+.orta3{width: 441px; height: 173px; background: url(images/welcome_box.gif) no-repeat;float: left; font: 12px tahoma; text-align:justify ; line-height: 25px; padding: 25px 40px 0 25px;}
+.yazi2{font: bold 12px tahoma; color: darkgoldenrod; text-decoration: none;}
+.container{width: 80%; margin: 0 auto; padding: 10px 0;display: flex; flex-direction: row; justify-content: center;}
+.box{width: 395px; height: auto; margin: 10px 5px; transition: 0.8s;float: left;box-shadow: 5px 5px 15px;}
+.box:hover{transform: scale(1.2); z-index: 2;}
+.box img{border-radius: 12px;}
+.yazi2:hover{text-decoration:overline;}
+
